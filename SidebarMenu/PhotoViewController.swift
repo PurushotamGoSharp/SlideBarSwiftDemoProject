@@ -12,7 +12,8 @@ class PhotoViewController: UIViewController
 {
     @IBOutlet weak var menuButton:UIBarButtonItem!
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         if revealViewController() != nil
